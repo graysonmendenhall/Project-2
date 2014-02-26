@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://getbootstrap.com/examples/starter-template/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A student website describing the six main soil horizons.">
+    <meta name="author" content="Grayson Mendenhall">
+    <link rel="icon" type="image/png" href="images/icon.png">
+
+    <title>Project 2 - Educational Slider</title>
+
+    <script src="http://motherjones.github.io/newsquiz/js/jquery.js"></script>
+    <script src="http://motherjones.github.io/newsquiz/js/tabletop.js"></script>
+    <script src="js/newsquiz.js"></script>
+    
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/starter-template/starter-template.css" rel="stylesheet">
+ 
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    
+   <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <link  href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" rel="stylesheet">
+    <script src="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.js"></script>
+    
+      
+    
+    
+    <style>
+        
+        @font-face {
+	font-family: 'Typograph Pro Extra Bold';
+	src: url('fonts/TYPOGRAPH PRO Extra Bold.ttf');
+        }
+
+    .slide1{
+        width:800px;
+    }
+    .rightbox{
+        width:150px;
+        min-height: 50px;
+        max-height:250px;
+        background: gray;
+        border:1px solid green;
+    }
+    
+    .imagetext{
+        right: 5%;
+        top: 5%;
+        width: 60%;
+        padding-top: 10%;
+        padding-right: 40px;
+        padding-left: 140px;
+        float: right;
+    }
+    
+    .credits{
+        color: #666;
+        text-align: center;
+        font-family: Typograph Pro;
+        
+    }
+    
+
+    
+    @media (max-width: 767px) {
+        
+        .textsize{
+            font-size: 8pt;
+            line-height: 10pt;
+        }
+    }
+    
+    @media only screen
+    and (min-width: 768px)
+    and (max-width: 991px) {
+        
+        .textsize{
+            font-size: 10pt;
+            line-height: 12pt;
+        }
+    }
+    
+    @media only screen
+    and (min-width: 992px)
+    and (max-width: 1199px) {
+        
+        .textsize{
+            font-size: 12pt;
+            line-height: 14pt;
+        }
+    }
+    
+    @media only screen (min-width: 1200px) {
+        
+        .textsize{
+            font-size: 14pt;
+            line-height: 16pt;
+        }
+    }
+
+    
+     @media (max-width: 767px) {
+        
+        .headsize{
+            font-size: 10pt;
+            line-height: 8pt;
+        }
+    }
+    
+    @media only screen
+    and (min-width: 768px)
+    and (max-width: 991px) {
+        
+        .headsize{
+            font-size: 18pt;
+            line-height: 14pt;
+        }
+    }
+    
+    @media only screen
+    and (min-width: 992px)
+    and (max-width: 1199px) {
+        
+        .headsize{
+            font-size: 24pt;
+            line-height: 20pt;
+        }
+    }
+    
+    @media only screen
+    and (min-width: 1200px)
+    and (max-width: 1500px) {
+        
+        .headsize{
+            font-size: 36pt;
+            line-height: 30pt;
+        }
+    }
+    </style>
+
+
+  </head>
+
+  <body style="padding-top:0px;">
+
+    <div class="container" style="padding-top: 10px;">
+        
+
+    <div class="starter-template" style="padding-top:10px">
+        
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-3"><img src="images/main_logo2.png" style="height: 125px"></div>
+            
+            <div class="col-md-5"> <p style="float: right; font-family: Typograph Pro; font-size: 1.15em; line-height: 1.5em">There are six master soil horizons that are commonly recognized. They are designated using the capital letters O, A, E, B, C, and R and are categorized based on their composition and depth within the soil profile. The master layers are not present in every soil profile.</p></div>
+            <div class="col-md-2"></div>
+        </div>
+        
+    
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <div class="fotorama" style="width:100%" data-allowfullscreen="native" data-keyboard="true"  data-arrows="true" data-click="true" data-swipe="false" data-transition="dissolve" data-loop="true" >
+                     
+                     <!-- <div data-img="images/faded_layers.png">
+                        <div class="imagetext">
+                            <span style="color: #8C0303; text-align: left">
+                                <p class="textsize"><span style="font-size:2em; padding-right: 0px;">Click on the image, <br>swipe to the right, <br>or press the right <br>arrow key to begin.</span></p>
+                               
+                            </div>
+                    </div> -->
+                     
+                     <div data-img="images/all_layers.png">
+                        <div class="imagetext">
+                            <span style="color: #8C0303; text-align: left;">
+                                <p class="headsize">Digging in the Dirt</p>
+                                <p class="textsize">Identification and description of the horizons present at a given site is the first step in soil classification. Soil scientists often dig a large hole, called a soil pit, usually several meters deep and about a meter wide, to expose soil horizons for study.</p>
+                            </span></div>
+                    </div>
+                    
+                    <div data-img="images/all_layers.png">
+                        <div class="imagetext">
+                            <span style="color: #8C0303; text-align: left;">
+                                <p class="headsize">It's All About Layers</p>
+                                <p class="textsize">A soil horizon is a layer generally parallel to the soil surface, whose physical characteristics differ from the layers above and beneath. Each soil type usually has three or four horizons. Horizons are defined in most cases by obvious physical features, chiefly color and texture.</p>
+                            </span></div>
+                    </div>
+                    
+                    <div data-img="images/o_layer.png">
+                        <div class="imagetext">
+                            <span style="color: #8C0303; text-align: left;">
+                                <p class="headsize">The 'O' Layer</p>
+                                <p class="textsize">This layer generally forms above the mineral soil or occurs in an organic soil profile. The "O" stands for organic matter. It is a surface layer dominated by the presence of large amounts of organic material derived from dead plant and/or animal residues which is in varying stages of decomposition.</p>
+                            </span></div>
+                    </div>
+                    
+                    <div data-img="images/a_layer.png">
+                        <div class="imagetext">
+                            <span style="color: #8C0303; text-align: left;">
+                                <p class="headsize">The 'A' Layer</p>
+                                <p class="textsize">Often referred to as the 'topsoil,' this layer generally contains enough partially decomposed (humified) organic matter to give the soil a color darker than that of the lower horizons. The A horizons are often coarser in texture, having lost some of the finer materials by translocation to lower horizons and by erosion. This layer is known as the zone in which the most biological activity occurs.</p>
+                            </span></div>
+                    </div>
+                    
+                    <div data-img="images/e_layer.png">
+                        <div class="imagetext">
+                            <span style="color: #8C0303; text-align: left;">
+                                <p class="headsize">The 'E' Layer</p>
+                                <p class="textsize">The 'E' layer has been significantly leached of clay, iron, and aluminum oxides, which leaves a concentration of resistant minerals, such as quartz, in the sand and silt sizes. These are present only in older, well-developed soils, and are generally lighter in color than either the horizon above or below it. E horizons are commonly found in soils developed under forests.</p>
+                            </span></div>
+                    </div>
+                    
+                    <div data-img="images/b_layer.png">
+                        <div class="imagetext">
+                            <span style="color: #8C0303; text-align: left;">
+                                <p class="headsize">The 'B' Layer</p>
+                                <p class="textsize">B horizons form below an O, A, or E horizon and they have undergone sufficient changes during soil genesis, such that the properties of their original parent material are no longer discernible. The B horizon is commonly referred to as the "subsoil". In humid regions, B horizons are the layers of maximum accumulation of materials such as silicate clays, iron, aluminum oxides, and organic material. </p>
+                            </span></div>
+                    </div>
+                    
+                    <div data-img="images/c_layer.png">
+                        <div class="imagetext">
+                            <span style="color: #8C0303; text-align: left;">
+                                <p class="headsize">The 'C' Layer</p>
+                                <p class="textsize">The C horizon forms as the R horizon beneath it weathers and rocks break up into smaller particles. While loose enough to be dug with a shovel, C horizon material often retains some of the structural features of the parent rock or geologic deposits from which it formed.</p>
+                            </span></div>
+                    </div>
+                    
+                    <div data-img="images/r_layer.png"><div class="imagetext">
+                            <span style="color: #8C0303; text-align: left;">
+                                <p class="headsize">The 'R' Layer</p>
+                                <p class="textsize">R horizons are the layer of partially weathered bedrock at the base of the soil profile. Unlike the above layers, R horizons are composed largely of consolidated masses of hard rock that cannot be excavated by hand. </p>
+                            </span></div>
+                    </div>
+                    
+                     <div data-img="images/faded_layers.png">
+                        <div class="imagetext">
+                            <span style="color: #8C0303; text-align: left">
+                                <p class="textsize"><span style="font-size:30pt; line-height: 32pt; padding-right: 0px; text-align: center;">Ready to test what <br>you have learned? <br>Go to the next slide <br>to take the Quiz!</a></span></p>
+                               
+                            </div>
+                    </div>
+                        
+                    <div data-img="images/blank.png">
+                       <iframe src="quiz.html" width="100%" height="600" scrolling="yes" style="display: inline-block">
+                </iframe>  
+                            </div>
+                    </div>
+                        
+                   <!-- <div data-img="images/blank.png">
+                        
+                        <div id="quiz_container"></div>
+                            <script type="text/javascript">
+                             var quiz = jQuery('#quiz_container').quiz('0Ar446254WmsqdGhzRG1acks5dXBkU3ltZnFLYi16T0E');
+                            </script> 
+                            
+                        </div> -->
+                    </div>
+                    
+                
+                    
+                </div>
+            </div>
+            </div>
+      </div>
+    <div class="credits">
+    <span style="color: #000">Design:</span><i> <span style="color: #666">Grayson Mendenhall</span></i><br>
+
+    <span style="color: #000">Credits:</span><i> <span style="color: #666">Wikipedia.org</span></i>
+    </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./Starter_files/jquery.min.js"></script>
+    <script src="./Starter_files/bootstrap.min.js"></script>
+  
+
+</body></html>
